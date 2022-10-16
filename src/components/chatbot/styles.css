@@ -1,0 +1,90 @@
+.chatContainer {
+  background-color: white;
+  position: absolute;
+  right: 5%;
+  z-index: 1;
+  width: 350px;
+  min-height: 200px;
+  bottom: 1px;
+  border-radius: 10px;
+
+  box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%),
+    0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%);
+}
+
+.header {
+  background-color: #042349;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.header > h4 {
+  margin: 10px;
+  color: white;
+}
+
+.chatConteudo {
+  background-color: white;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.question,
+.resposta {
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-family: sans-serif;
+  max-width: 190px;
+  width: max-content;
+}
+
+.question > p,
+.resposta > p {
+  margin: 0;
+}
+
+.resposta {
+  background-color: rgba(128, 128, 128, 0.904);
+}
+.question {
+  background-color: #5d96d9;
+  float: right;
+  margin: 24px 0px;
+}
+
+.containerSend {
+  padding: 10px;
+  background-color: #042349;
+  float: left;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  border: none;
+  background: transparent;
+  color: white;
+}
+
+.btn-red {
+  color: red;
+}
+
+input {
+  padding: 6px 11px;
+  border-radius: 7px;
+  background: #ffffff61;
+  color: white;
+  border: 1px solid transparent;
+  width: 100%;
+  font-size: 14px;
+}
+
+.chatbot {
+  display: flex;
+}
